@@ -1,3 +1,17 @@
+;;; foo.el --- Display 現場猫 when you save data -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2022 Cj-bc a.k.a Cj.bc-sd
+
+;; Author: Cj-bc <cj.bc-sd@outlook.jp>
+;; Created: 16 Nov 2022
+;; Keywords: games
+;; URL: https://github.com/Cj-bc/yoshi.el
+;; Package-Requires: (posframe)
+
+;; This file is not part of GNU Emacs.
+;;; Commentary:
+;; https://github.com/mattn/vim-yoshi を素朴にEmacs用にしたものです
+;;; Code:
 
 (require 'posframe)
 
@@ -36,3 +50,5 @@
     (remove-hook 'after-save-hook #'yoshi-el/yoshi)))
 
 (provide 'yoshi)
+
+;;; yoshi.el ends here
