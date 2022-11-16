@@ -1,0 +1,4 @@
+* Yoshi! .el
+[[https://github.com/mattn/vim-yoshi][mattn/vim-yoshi]]のEmacs版です
+
+[[./screenshot.gif]]
