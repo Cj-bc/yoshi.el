@@ -1,4 +1,6 @@
 
+(require 'posframe)
+
 (defcustom yoshi-el/AA
   (string-join '("                 /＼  ／ヽ"
 		 "                {／￣￣￣ヽ!"
