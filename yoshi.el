@@ -31,7 +31,7 @@
 		 "                 ￣￣     ( ｀ヽ   ＼__)"
 		 "                           ＼__ﾉ")
 	       "\n")
-  "AA to show in posframe"
+  "AA to show in posframe. Default AA is copyed from https://github.com/mattn/vim-yoshi and modifed by me"
   )
 
 (defun yoshi-el/yoshi ()
