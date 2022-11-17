@@ -36,11 +36,14 @@
   "AA to show in posframe. Default AA is copyed from https://github.com/mattn/vim-yoshi and modifed by me"
   )
 
+(defcustom yoshi-el/posframe-parameters
+  '(:timeout 2 :border-width 10 :border-color "black")
+  "Plist of posframe parameters. They will be passed to `posframe-show' directly."
+  )
+
 (defun yoshi-el/yoshi ()
   "Show yoshi at fixed position"
-    (posframe-show "Posframe-yoshi" :string yoshi-el/AA
-		   :timeout 2
-		   :border-width 10 :border-color "black"))
+    (eval `(posframe-show "Posframe-yoshi" :string yoshi-el/AA ,@yoshi-el/posframe-parameters)))
 
 (defvar yoshi-minor-mode nil)
 
