@@ -2,3 +2,17 @@
 [[https://github.com/mattn/vim-yoshi][mattn/vim-yoshi]]のEmacs版です
 
 [[./screenshot.gif]]
+** 必要パッケージ
++ ~posframe~
+** インストール
+
+#+begin_src elisp
+  (leaf yoshi
+    :el-get Cj-bc/yoshi.el
+    :
+    )
+#+end_src
+
+** 使い方
+~yoshi-minor-mode~ というマイナーモードとして定義してあるので、
+それを有効化してください。

@@ -10,7 +10,9 @@
 
 ;; This file is not part of GNU Emacs.
 ;;; Commentary:
-;; https://github.com/mattn/vim-yoshi を素朴にEmacs用にしたものです
+;; https://github.com/mattn/vim-yoshi を素朴にEmacs用にしたものです。
+;; マイナーモードの ~yoshi-minor-mode~ として実装しています。
+;;
 ;;; Code:
 
 (require 'posframe)
